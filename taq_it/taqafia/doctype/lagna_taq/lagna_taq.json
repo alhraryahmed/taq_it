@@ -1,14 +1,28 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{makteeeb}-{nameee_display}",
  "creation": "2025-09-24 16:14:42.019742",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "\u0644\u062c\u0646\u0629_\u0642\u0628\u0648\u0644_\u0627\u0644\u0648\u0639\u0627\u0638_section",
+  "\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0648\u0627\u0639\u0638_column",
   "nameee",
   "nameee_display",
-  "makteeeb"
+  "makteeeb",
+  "\u062a\u062d\u062f\u064a\u062f_\u0645\u0648\u0639\u062f_column",
+  "\u0627\u0644\u064a\u0648\u0645",
+  "\u0627\u0644\u062a\u0627\u0631\u064a\u062e_\u0648\u0627\u0644\u0648\u0642\u062a",
+  "\u062a\u0642\u064a\u064a\u0645_\u0627\u0644\u0648\u0627\u0639\u0638_section",
+  "\u062a\u0642\u064a\u064a\u0645_\u062f\u0631\u062c\u0627\u062a_\u0627\u0644\u0648\u0627\u0639\u0638_column",
+  "wa_taa",
+  "ho_taa",
+  "qu_taa",
+  "la_taa",
+  "\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0642\u064a\u0645_column",
+  "moq",
+  "sig_taa"
  ],
  "fields": [
   {
@@ -35,15 +49,91 @@
    "fieldtype": "Data",
    "label": "\u0627\u0644\u0627\u0633\u0645 \u0627\u0644\u0631\u0628\u0627\u0639\u064a",
    "options": "taq_data1"
+  },
+  {
+   "fieldname": "\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0648\u0627\u0639\u0638_column",
+   "fieldtype": "Column Break",
+   "label": "\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0648\u0627\u0639\u0638"
+  },
+  {
+   "fieldname": "\u062a\u062d\u062f\u064a\u062f_\u0645\u0648\u0639\u062f_column",
+   "fieldtype": "Column Break",
+   "label": "\u062a\u062d\u062f\u064a\u062f \u0645\u0648\u0639\u062f"
+  },
+  {
+   "fieldname": "\u0627\u0644\u064a\u0648\u0645",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u064a\u0648\u0645"
+  },
+  {
+   "fieldname": "\u0627\u0644\u062a\u0627\u0631\u064a\u062e_\u0648\u0627\u0644\u0648\u0642\u062a",
+   "fieldtype": "Datetime",
+   "label": "\u0627\u0644\u062a\u0627\u0631\u064a\u062e \u0648\u0627\u0644\u0648\u0642\u062a"
+  },
+  {
+   "fieldname": "\u062a\u0642\u064a\u064a\u0645_\u0627\u0644\u0648\u0627\u0639\u0638_section",
+   "fieldtype": "Section Break",
+   "label": "\u062a\u0642\u064a\u064a\u0645 \u0627\u0644\u0648\u0627\u0639\u0638"
+  },
+  {
+   "fieldname": "\u062a\u0642\u064a\u064a\u0645_\u062f\u0631\u062c\u0627\u062a_\u0627\u0644\u0648\u0627\u0639\u0638_column",
+   "fieldtype": "Column Break",
+   "label": "\u062a\u0642\u064a\u064a\u0645 \u062f\u0631\u062c\u0627\u062a \u0627\u0644\u0648\u0627\u0639\u0638"
+  },
+  {
+   "fieldname": "wa_taa",
+   "fieldtype": "Data",
+   "label": "\u062f\u0631\u062c\u0629 \u0627\u0644\u0648\u0639\u0638",
+   "permlevel": 2
+  },
+  {
+   "fieldname": "ho_taa",
+   "fieldtype": "Data",
+   "label": "\u062f\u0631\u062c\u0629 \u0627\u0644\u062d\u0636\u0648\u0631",
+   "permlevel": 2
+  },
+  {
+   "fieldname": "qu_taa",
+   "fieldtype": "Select",
+   "label": "\u0645\u0627 \u064a\u062d\u0641\u0638 \u0645\u0646 \u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645",
+   "options": "\u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0643\u0627\u0645\u0644\n\u062b\u0644\u0627\u062b\u0629 \u0623\u0631\u0628\u0627\u0639 \u0627\u0644\u0642\u0631\u0622\u0646\n\u0646\u0635\u0641 \u0627\u0644\u0642\u0631\u0622\u0646\n\u062b\u0644\u062b \u0627\u0644\u0642\u0631\u0622\u0646\n\u0631\u0628\u0639 \u0627\u0644\u0642\u0631\u0622\u0646\n\u0623\u0642\u0644 \u0645\u0646 \u0627\u0644\u0631\u0628\u0639",
+   "permlevel": 2
+  },
+  {
+   "fieldname": "la_taa",
+   "fieldtype": "Table",
+   "label": "\u0627\u0644\u0644\u063a\u0627\u062a",
+   "options": "languu",
+   "permlevel": 2
+  },
+  {
+   "fieldname": "\u0628\u064a\u0627\u0646\u0627\u062a_\u0627\u0644\u0645\u0642\u064a\u0645_column",
+   "fieldtype": "Column Break",
+   "label": "\u0628\u064a\u0627\u0646\u0627\u062a \u0627\u0644\u0645\u0642\u064a\u0645"
+  },
+  {
+   "fieldname": "moq",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0645\u0642\u064a\u0645",
+   "options": "User",
+   "permlevel": 2,
+   "read_only": 1
+  },
+  {
+   "fieldname": "sig_taa",
+   "fieldtype": "Signature",
+   "label": "\u0627\u0644\u062a\u0648\u0642\u064a\u0639 \u0648\u0627\u0644\u0627\u0639\u062a\u0645\u0627\u062f",
+   "permlevel": 2
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-01 15:56:42.305291",
+ "modified": "2025-10-06 15:00:33.794790",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "lagna_taq",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
