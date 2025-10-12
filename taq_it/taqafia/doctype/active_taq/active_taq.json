@@ -7,8 +7,8 @@
  "field_order": [
   "\u0627\u0644\u0627\u0646\u0634\u0637\u0629_\u0648\u0627\u0644\u0641\u0627\u0639\u0644\u064a\u0627\u062a_\u0644\u0644\u0648\u0639\u0627\u0638_section",
   "naa",
-  "ty",
   "en",
+  "ty",
   "mak",
   "\u0645\u0648\u0639\u062f_\u0648\u0645\u0643\u0627\u0646_\u0627\u0644\u0646\u0634\u0627\u0637_column",
   "da",
@@ -21,6 +21,7 @@
    "label": "\u0627\u0644\u0627\u0646\u0634\u0637\u0629 \u0648\u0627\u0644\u0641\u0627\u0639\u0644\u064a\u0627\u062a \u0644\u0644\u0648\u0639\u0627\u0638"
   },
   {
+   "fetch_from": "en.ja_mak",
    "fieldname": "ty",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -33,11 +34,11 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "\u0639\u0646\u0648\u0627\u0646 \u0627\u0644\u0646\u0634\u0627\u0637",
-   "options": "enac_taq",
+   "options": "mak_taq",
    "reqd": 1
   },
   {
-   "fetch_from": "naa.makteeb",
+   "fetch_from": "en.ma",
    "fieldname": "mak",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -46,9 +47,11 @@
    "reqd": 1
   },
   {
+   "fetch_from": "en.da",
    "fieldname": "da",
    "fieldtype": "Date",
    "label": "\u062a\u0627\u0631\u064a\u062e \u0627\u0644\u0646\u0634\u0627\u0637",
+   "options": "mak_taq",
    "reqd": 1
   },
   {
@@ -66,6 +69,7 @@
    "label": "\u0645\u0648\u0639\u062f \u0648\u0645\u0643\u0627\u0646 \u0627\u0644\u0646\u0634\u0627\u0637"
   },
   {
+   "fetch_from": "en.loc_mak",
    "fieldname": "locc",
    "fieldtype": "Link",
    "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0643\u0627\u0646 \u0648\u0627\u0644\u0645\u0648\u0642\u0639 \u0639\u0644\u0649 \u0627\u0644\u062e\u0631\u064a\u0637\u0629",
@@ -76,7 +80,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-12 11:54:48.621823",
+ "modified": "2025-10-12 13:02:16.637380",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "active_taq",
