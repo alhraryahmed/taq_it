@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{#######}",
+ "autoname": "format:{namee}-{#######}",
  "creation": "2025-09-22 11:14:34.524167",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -118,7 +118,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-01 15:40:12.249734",
+ "modified": "2025-10-12 11:16:05.962639",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "taq_data1",
