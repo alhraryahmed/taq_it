@@ -129,7 +129,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-04 16:55:40.974174",
+ "modified": "2025-11-04 17:56:11.528374",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "lagna_taq",
@@ -183,6 +183,7 @@
    "write": 1
   },
   {
+   "create": 1,
    "email": 1,
    "export": 1,
    "print": 1,
