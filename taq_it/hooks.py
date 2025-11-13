@@ -5,6 +5,32 @@ app_description = "taqafia and it"
 app_email = "alhraryahmed110@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {"doctype": "Custom Field"},
+    {"doctype": "Custom Script"},
+    {"doctype": "Property Setter"},
+    {"doctype": "Client Script"},
+    {"doctype": "Server Script"},
+    {"doctype": "Workspace"},
+    {"doctype": "Dashboard"},
+    {"doctype": "Dashboard Chart"},
+    {"doctype": "Notification"},
+    {"doctype": "Print Format"},
+    {"doctype": "Report"},
+    {"doctype": "Workflow"},
+    {"doctype": "Workflow State"},
+    {"doctype": "Workflow Action"},
+    {"doctype": "Web Page"},
+    {"doctype": "Web Form"},
+    {"doctype": "Custom HTML Block"},
+    {"doctype": "Translation"},
+    {"doctype": "DocType"},
+    {"doctype": "Role"},
+    {"doctype": "Role Permission for Page and Report"},
+    {"doctype": "System Settings"},
+    {"doctype": "Property Setter"},
+]
+
 # Apps
 # ------------------
 
