@@ -1,0 +1,1316 @@
+[
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 14:50:46.167773",
+  "name": "6rt00dct8o",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 15:01:37.955093",
+  "name": "d7j2h5divs",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "مستمر"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 15:01:45.100173",
+  "name": "d9rk7u5eff",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "موقوف"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 15:01:50.916222",
+  "name": "dblv16ves2",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "منقطع"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 15:11:45.912031",
+  "name": "j5jlvanm7u",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000001",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:20:20.662786",
+  "name": "ugemvpa9kp",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000002",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:32:00.631934",
+  "name": "5b6tcqu5nu",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000003",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:46:38.849647",
+  "name": "dtks23ip40",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000004",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:51:22.666744",
+  "name": "gmasqnidup",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000005",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:52:37.092332",
+  "name": "hdi5srlhg5",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000006",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:53:51.550403",
+  "name": "i4r4oj15d3",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000007",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:54:46.333757",
+  "name": "ilvmjgfte2",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000008",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-09-24 17:55:55.738202",
+  "name": "jbl6ndkmp2",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000009",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 14:51:05.937527",
+  "name": "pa37ramaub",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000010",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 14:54:33.531081",
+  "name": "ravno0c6jj",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000011",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 14:58:16.007402",
+  "name": "tggu9jbv7v",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000012",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 14:59:34.764894",
+  "name": "u93c8ppo0q",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000013",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:02:07.532058",
+  "name": "vor486r6ra",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000014",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:05:47.590336",
+  "name": "1tjh2k4gjg",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000015",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:08:05.714792",
+  "name": "38p50hoqlo",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000016",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:10:18.878335",
+  "name": "4icit8sb2j",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000017",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:22:24.563971",
+  "name": "bl58lvbsfr",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000018",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:24:29.745837",
+  "name": "cs9c674p28",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000019",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:26:44.709977",
+  "name": "e6ff0ggek3",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000020",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:33:08.360115",
+  "name": "hubve50hn4",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000021",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:39:00.378384",
+  "name": "lcb55764e8",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000022",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 15:40:53.176633",
+  "name": "mfj43onmui",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000020",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "مستمر"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 16:12:12.554268",
+  "name": "8qt464ckjh",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000023",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 16:12:19.030135",
+  "name": "8sulcp7ksi",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "lagna_taq",
+  "reference_name": "8su4lllt3h",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-01 16:13:10.589253",
+  "name": "9d1b5p340u",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000023",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "مستمر"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-06 11:51:29.064003",
+  "name": "aqa52pmvn8",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000024",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-06 11:51:36.491229",
+  "name": "askmn9sral",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "lagna_taq",
+  "reference_name": "مكتب أوقاف طرابلس - AD-معاذ مفتاح البهلول",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-06 12:14:29.371544",
+  "name": "o9lojt7du3",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000025",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-06 12:15:28.701863",
+  "name": "os7m6ilu43",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000026",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-06 12:15:33.928427",
+  "name": "otr2mqgf8j",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "lagna_taq",
+  "reference_name": "مكتب أوقاف طرابلس - AD-قثلثقاقفنت",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-09 12:34:55.201934",
+  "name": "7go3ltii56",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000027",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-09 12:35:12.639640",
+  "name": "7m6pis3m93",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "lagna_taq",
+  "reference_name": "مكتب أوقاف طرابلس - AD-ناصر مختار الورشفاني",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-12 09:37:35.265400",
+  "name": "2ron5clh27",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "0000027",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "مستمر"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-12 11:17:35.763222",
+  "name": "tet5smqt6j",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "علي محمد علي ساسي-0000028",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-13 16:07:14.860405",
+  "name": "itsjvf1viq",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الصلاة",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "طلب نشاط"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-13 16:07:18.766426",
+  "name": "iv3volpsc3",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الصلاة",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "نشاط محال"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-13 16:08:10.769488",
+  "name": "jfbsur4sh8",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "jfbgdkfpg5",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "تكليف بنشاط"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-13 16:08:13.808289",
+  "name": "jgab1r53q9",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "jfbgdkfpg5",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "تكليف معتمد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-13 16:09:53.443866",
+  "name": "kfe732s4fc",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف غريان - AD-الايمان",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "طلب نشاط"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-13 16:10:26.653867",
+  "name": "kpqsl7qf52",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "kpquo7fa3j",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "تكليف بنشاط"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-22 15:02:40.765160",
+  "name": "mr7i3emggc",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "مالك انديش-0000029",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-22 15:03:06.455185",
+  "name": "n38rk1qvu1",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "lagna_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-مالك انديش",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-22 15:06:35.807056",
+  "name": "p4m06fit4h",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "مالك انديش-0000029",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "مستمر"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-22 15:07:31.106833",
+  "name": "plv98ao4rd",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "plu6fv52mm",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "تكليف بنشاط"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-22 15:08:39.631596",
+  "name": "qbcr88j4ge",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "plu6fv52mm",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "تكليف معتمد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-26 12:09:08.830101",
+  "name": "05g4e185mi",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف طرابلس - AD-التوحيد",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "طلب نشاط"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-26 12:09:26.239160",
+  "name": "0au277td2a",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف طرابلس - AD-التوحيد",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "نشاط محال"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-26 12:09:52.394953",
+  "name": "0j3j53j5tg",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "0j31a34td5",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "تكليف بنشاط"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:26:03.997155",
+  "name": "b1ojghauvt",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عاشور بنور-0000030",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:26:44.345127",
+  "name": "bebotvjkth",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "lagna_taq",
+  "reference_name": "مكتب أوقاف طرابلس - AD-أحمد عاشور بنور",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:31:12.823500",
+  "name": "e28gqcqjkk",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عاشور بنور-0000030",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "مستمر"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:31:17.534580",
+  "name": "e3n7u00d7i",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عاشور بنور-0000030",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "موقوف"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:31:19.612400",
+  "name": "e4cbt95o4c",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "أحمد عاشور بنور-0000030",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "منقطع"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:34:38.213893",
+  "name": "g2eu9jfalc",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الكنوز الاثرية",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "طلب نشاط"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:35:14.736773",
+  "name": "gdroflbjsp",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الكنوز الاثرية",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "نشاط محال"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:35:50.344396",
+  "name": "govonpf8gq",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "govt4t178r",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "تكليف بنشاط"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:35:53.014138",
+  "name": "gpqavg904h",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "govt4t178r",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "تكليف معتمد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-28 15:36:56.704955",
+  "name": "hdnl31auj0",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الكنوز الاثرية",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "نشاط معتمد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 20:04:43.028309",
+  "name": "hieoko4361",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "مالك انديش-0000029",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "موقوف"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:22:02.847934",
+  "name": "usc2saku5i",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الاحسان",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "طلب نشاط"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:22:41.820997",
+  "name": "v8ip4p068a",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الاحسان",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "نشاط محال"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:23:10.371354",
+  "name": "vhf5cq4r86",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "vhfpqrpjpm",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "تكليف بنشاط"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:23:16.055036",
+  "name": "vj8lvp12lj",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "vhfpqrpjpm",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "تكليف معتمد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:23:46.508772",
+  "name": "vsp9h0rot8",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "mak_taq",
+  "reference_name": "مكتب أوقاف الخمس - AD-الاحسان",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "نشاط معتمد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "System Manager",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:36:19.041129",
+  "name": "77u14jr487",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "نافع الهادي زهمول-0000031",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:36:46.817188",
+  "name": "7gkc58f213",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "lagna_taq",
+  "reference_name": "مكتب أوقاف طرابلس - AD-نافع الهادي زهمول",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "جديد"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:38:37.824568",
+  "name": "8ja6njmmip",
+  "permitted_roles": [
+   {
+    "role": "System Manager"
+   }
+  ],
+  "reference_doctype": "taq_data1",
+  "reference_name": "نافع الهادي زهمول-0000031",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "مستمر"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2025-10-31 21:39:16.807652",
+  "name": "8vg5n461f8",
+  "permitted_roles": [
+   {
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "active_taq",
+  "reference_name": "8vgii7trfn",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "تكليف بنشاط"
+ }
+]

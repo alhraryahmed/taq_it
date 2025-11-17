@@ -1,0 +1,21 @@
+[
+ {
+  "allow_guest": 1,
+  "api_method": "get_device_info",
+  "cron_format": null,
+  "disabled": 1,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Insert",
+  "enable_rate_limit": 0,
+  "event_frequency": "All",
+  "modified": "2025-11-10 13:12:47.718369",
+  "module": "Support",
+  "name": "جلب بيانات الجهاز",
+  "rate_limit_count": 5,
+  "rate_limit_seconds": 86400,
+  "reference_doctype": null,
+  "script": "# Server Script (API)\r\n# API Method: get_device_info\r\n\r\nimport socket\r\nimport frappe\r\n\r\n# حاول الحصول على اسم الجهاز و IP من request headers\r\nclient_ip = frappe.request.remote_addr\r\n\r\n# إذا تريد اسم الجهاز من الشبكة المحلية\r\n# لاحظ: السيرفر فقط يعرف اسمه، لأجهزة clients تحتاج Agent\r\nhostname = socket.getfqdn(client_ip)\r\n\r\nfrappe.response['message'] = {\r\n    \"ip\": client_ip,\r\n    \"hostname\": hostname\r\n}\r\n",
+  "script_type": "API"
+ }
+]

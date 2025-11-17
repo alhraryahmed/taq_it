@@ -1,0 +1,90 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "taq_data1",
+  "enabled": 1,
+  "modified": "2025-10-31 21:30:41.238444",
+  "module": "taqafia",
+  "name": "عدم اضافة الوعاظ الاقل من 23 عام",
+  "script": "frappe.ui.form.on('taq_data1', {\r\n    validate: function(frm) {\r\n        if (frm.doc.agee && frm.doc.agee < 23) {\r\n            frappe.throw(__('يجب أن لا يكون عمر الواعظ أقل من 23 عام'));\r\n        }\r\n    },\r\n    agee: function(frm) {\r\n        if (frm.doc.agee && frm.doc.agee < 23) {\r\n            frappe.msgprint(__('يجب أن لا يكون عمر الواعظ أقل من 23 عام'));\r\n            frm.set_value('agee', '');  // يمسح العمر المدخل\r\n        }\r\n    }\r\n});\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "taq_data1",
+  "enabled": 1,
+  "modified": "2025-10-31 21:32:13.921715",
+  "module": "taqafia",
+  "name": "الاحالة للجنة قبول الوعاظ",
+  "script": "frappe.ui.form.on('taq_data1', {\r\n    refresh: function(frm) {\r\n\r\n        // زر الإحالة في taq_data1\r\n        if(!frm.doc.taq_referred) {\r\n            frm.add_custom_button(__('إحالة للجنة قبول الوعاظ'), function() {\r\n\r\n                let new_doc = {\r\n                    doctype: \"lagna_taq\",\r\n                    nameee: frm.doc.name,         \r\n                    nameee_display: frm.doc.namee, \r\n                    makteeeb: frm.doc.makteeb,      \r\n                    taq_data1_ref: frm.doc.name,    \r\n                    taq_data1_id: frm.doc.name,     \r\n                    taq_referred_status: 1          \r\n                };\r\n\r\n                frappe.call({\r\n                    method: \"frappe.client.insert\",\r\n                    args: { doc: new_doc },\r\n                    callback: function(r) {\r\n                        if(!r.exc && r.message) {\r\n                            frappe.msgprint(__('تمت الإحالة إلى لجنة قبول الوعاظ'));\r\n\r\n                            frappe.db.set_value(frm.doctype, frm.doc.name, 'taq_referred', 1);\r\n\r\n                            frappe.set_route(\"Form\", \"lagna_taq\", r.message.name);\r\n                        }\r\n                    }\r\n                });\r\n            });\r\n        }\r\n    }\r\n});\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "lagna_taq",
+  "enabled": 1,
+  "modified": "2025-10-01 15:38:00.482735",
+  "module": "taqafia",
+  "name": "عرض تفاصيل مستند الواعظ",
+  "script": "frappe.ui.form.on('lagna_taq', {\r\n    refresh: function(frm) {\r\n\r\n        // إزالة أي أزرار قديمة بنفس الاسم\r\n        frm.clear_custom_buttons();\r\n\r\n        // إضافة زر \"عرض التفاصيل\" فقط إذا كان هناك مرجع\r\n        if(frm.doc.taq_data1_ref) {\r\n            frm.add_custom_button(__('عرض التفاصيل'), function() {\r\n                frappe.set_route(\"Form\", \"taq_data1\", frm.doc.taq_data1_ref);\r\n            });\r\n        }\r\n    }\r\n});\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "lagna_taq",
+  "enabled": 1,
+  "modified": "2025-10-06 12:52:02.807500",
+  "module": "taqafia",
+  "name": "وضع اسم المستخدم",
+  "script": "frappe.ui.form.on('lagna_taq', {\r\n    refresh: function(frm) {\r\n        if (!frm.doc.moq) {\r\n            frm.set_value('moq', frappe.session.user);\r\n        }\r\n    }\r\n});\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "taq_data1",
+  "enabled": 1,
+  "modified": "2025-10-28 17:56:12.824126",
+  "module": "taqafia",
+  "name": "تصميم",
+  "script": "frappe.ui.form.on('taq_data1', {\r\n    refresh: function(frm) {\r\n        // 🌫️ خلفية زجاجية ناعمة\r\n        $('body').css({\r\n            'background': 'linear-gradient(135deg, #e3f2fd 0%, #ffffff 100%)',\r\n            'font-family': '\"Poppins\", \"Segoe UI\", sans-serif',\r\n            'color': '#1e293b',\r\n            'transition': 'background 0.6s ease'\r\n        });\r\n\r\n        // 🧊 الحاوية الرئيسية للفورم\r\n        $('.form-layout').css({\r\n            'background': 'rgba(255, 255, 255, 0.7)',\r\n            'backdrop-filter': 'blur(14px)',\r\n            '-webkit-backdrop-filter': 'blur(14px)',\r\n            'border-radius': '18px',\r\n            'border': '1px solid rgba(255, 255, 255, 0.5)',\r\n            'box-shadow': '0 8px 25px rgba(0, 0, 0, 0.08)',\r\n            'padding': '35px 40px',\r\n            'margin': '20px auto',\r\n            'max-width': '950px',\r\n            'transition': 'all 0.4s ease'\r\n        }).hide().fadeIn(700);\r\n\r\n        // 🩵 ترويسة الفورم (العنوان الرئيسي)\r\n        $('.page-head .title-text').css({\r\n            'font-size': '1.6rem',\r\n            'font-weight': '600',\r\n            'color': '#0f172a',\r\n            'letter-spacing': '0.5px'\r\n        });\r\n\r\n        // ✨ العناوين الفرعية للأقسام\r\n        $('.form-section .section-head').css({\r\n            'color': '#334155',\r\n            'font-weight': '600',\r\n            'font-size': '1.05rem',\r\n            'border-left': '4px solid #3B82F6',\r\n            'padding-left': '12px',\r\n            'margin-bottom': '10px'\r\n        });\r\n\r\n        // 🎛️ تنسيق الحقول\r\n        $('input, select, textarea').css({\r\n            'border-radius': '10px',\r\n            'border': '1px solid #d1d5db',\r\n            'background': 'rgba(255, 255, 255, 0.9)',\r\n            'padding': '10px 12px',\r\n            'transition': 'all 0.3s ease',\r\n            'font-size': '0.95rem'\r\n        }).focus(function() {\r\n            $(this).css({\r\n                'border-color': '#3B82F6',\r\n                'box-shadow': '0 0 8px rgba(59, 130, 246, 0.4)',\r\n                'background': '#fff'\r\n            });\r\n        }).blur(function() {\r\n            $(this).css({\r\n                'border-color': '#d1d5db',\r\n                'box-shadow': 'none',\r\n                'background': 'rgba(255, 255, 255, 0.9)'\r\n            });\r\n        });\r\n\r\n        // 💠 الأزرار الرئيسية\r\n        $('.primary-action').css({\r\n            'background': 'linear-gradient(90deg, #3B82F6, #06B6D4)',\r\n            'border': 'none',\r\n            'border-radius': '10px',\r\n            'color': '#fff',\r\n            'font-weight': '600',\r\n            'padding': '10px 26px',\r\n            'box-shadow': '0 4px 15px rgba(59, 130, 246, 0.4)',\r\n            'transition': 'all 0.3s ease'\r\n        }).hover(function() {\r\n            $(this).css({\r\n                'transform': 'translateY(-2px)',\r\n                'box-shadow': '0 6px 18px rgba(59, 130, 246, 0.5)'\r\n            });\r\n        }, function() {\r\n            $(this).css({\r\n                'transform': 'translateY(0)',\r\n                'box-shadow': '0 4px 15px rgba(59, 130, 246, 0.4)'\r\n            });\r\n        });\r\n\r\n        // 🌟 تمييز الصفوف في الجداول\r\n        $('.grid-row').hover(function() {\r\n            $(this).css('background', 'rgba(219, 234, 254, 0.4)');\r\n        }, function() {\r\n            $(this).css('background', 'transparent');\r\n        });\r\n\r\n        // 🌈 رسالة نجاح صغيرة عند الفتح\r\n        frappe.show_alert({\r\n            message: __('🌤️ تم تحميل الصفحة بتصميم أنيق'),\r\n            indicator: 'blue'\r\n        }, 4);\r\n    }\r\n});\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Issue",
+  "enabled": 1,
+  "modified": "2025-11-10 12:35:16.367029",
+  "module": "Support",
+  "name": "ربط بيانات المستخدم بالبلاغ",
+  "script": "frappe.ui.form.on('Issue', {\r\n    onload: function(frm) {\r\n        // جلب اسم المستخدم الحالي\r\n        if (!frm.doc.user_account) {\r\n            frm.set_value('user_account', frappe.session.user);\r\n        }\r\n\r\n        // جلب اسم المرسل من DocType User\r\n        frappe.db.get_value('User', frappe.session.user, 'full_name', (r) => {\r\n            if (r && r.full_name) {\r\n                frm.set_value('sender_name', r.full_name);\r\n            }\r\n        });\r\n\r\n        // محاولة جلب اسم الجهاز و IP (يحتاج صلاحيات Client-side)\r\n        frappe.call({\r\n            method: \"frappe.client.get_value\",\r\n            args: {\r\n                doctype: \"User\",\r\n                filters: { \"name\": frappe.session.user },\r\n                fieldname: [\"last_ip\"]\r\n            },\r\n            callback: function(r) {\r\n                if (r.message && r.message.last_ip) {\r\n                    frm.set_value('device_ip', r.message.last_ip);\r\n                }\r\n            }\r\n        });\r\n\r\n        // جلب اسم الجهاز من الـ browser\r\n        try {\r\n            frm.set_value('device_name', window.navigator.userAgent);\r\n        } catch (e) {\r\n            console.log(\"Error fetching device name:\", e);\r\n        }\r\n\r\n        // لا يمكن جلب MAC من المتصفح مباشرة (محظور أمنيًا)\r\n        frm.set_df_property('device_mac', 'description', 'يتم تعبئتها يدويًا لأسباب أمان المتصفح');\r\n    }\r\n});\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "zeyarat",
+  "enabled": 1,
+  "modified": "2025-11-12 15:47:52.030530",
+  "module": "Lagnaa",
+  "name": "جلب الصورة من الموقع",
+  "script": "frappe.ui.form.on('اسم_DocType', {\r\n    refresh: function(frm) {\r\n        generate_map(frm);\r\n    },\r\n    الموقع_الخاص_بالمكتب: function(frm) {\r\n        generate_map(frm);\r\n    }\r\n});\r\n\r\nfunction generate_map(frm) {\r\n    if(!frm.doc.الموقع_الخاص_بالمكتب) return;\r\n\r\n    try {\r\n        // تحويل GeoJSON إلى إحداثيات\r\n        let geojson = JSON.parse(frm.doc.الموقع_الخاص_بالمكتب);\r\n        let coords = geojson.features[0].geometry.coordinates;\r\n        let lat = coords[1];\r\n        let lng = coords[0];\r\n\r\n        let api_key = \"YOUR_API_KEY\"; // ضع مفتاح Google Maps الخاص بك هنا\r\n        let url = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lng}&zoom=15&size=600x300&markers=color:red|${lat},${lng}&key=${api_key}`;\r\n\r\n        // جلب الصورة وتحويلها إلى Base64\r\n        fetch(url)\r\n            .then(response => response.blob())\r\n            .then(blob => {\r\n                let reader = new FileReader();\r\n                reader.onloadend = function() {\r\n                    let base64data = reader.result.split(',')[1]; // الحصول على Base64 فقط\r\n                    frm.set_value('map_base64', base64data);\r\n                    frm.save(); // حفظ تلقائي للتحديث\r\n                }\r\n                reader.readAsDataURL(blob);\r\n            })\r\n            .catch(err => {\r\n                frappe.msgprint(\"خطأ في توليد الخريطة: \" + err);\r\n            });\r\n    } catch(e) {\r\n        frappe.msgprint(\"خطأ في تحليل الموقع: \" + e.message);\r\n    }\r\n}\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Issue",
+  "enabled": 1,
+  "modified": "2025-11-12 16:16:29.568226",
+  "module": "Support",
+  "name": "فتح تطبيق خارج النظام",
+  "script": "frappe.ui.form.on('Issue', {\r\n    remote_desktob: function(frm) {\r\n        fetch('http://127.0.0.1:5000/run_support')\r\n            .then(res => res.text())\r\n            .then(data => frappe.msgprint(data))\r\n            .catch(err => frappe.msgprint('خطأ في تشغيل التطبيق: ' + err));\r\n    }\r\n});\r\n",
+  "view": "Form"
+ }
+]

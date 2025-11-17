@@ -7,7 +7,7 @@ app_license = "mit"
 
 fixtures = [
     {"doctype": "Custom Field"},
-    {"doctype": "Custom Script"},
+   # {"doctype": "Custom Script"},
     {"doctype": "Property Setter"},
     {"doctype": "Client Script"},
     {"doctype": "Server Script"},
