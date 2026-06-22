@@ -8,10 +8,13 @@
   "name": "6rt00dct8o",
   "permitted_roles": [
    {
+    "parent": "6rt00dct8o",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
   "status": "Completed",
   "user": null,
@@ -26,10 +29,13 @@
   "name": "d7j2h5divs",
   "permitted_roles": [
    {
+    "parent": "d7j2h5divs",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
   "status": "Completed",
   "user": null,
@@ -44,10 +50,13 @@
   "name": "d9rk7u5eff",
   "permitted_roles": [
    {
+    "parent": "d9rk7u5eff",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
   "status": "Completed",
   "user": null,
@@ -62,10 +71,13 @@
   "name": "dblv16ves2",
   "permitted_roles": [
    {
+    "parent": "dblv16ves2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عادل التومي-مكتب أوقاف طرابلس - AD",
   "status": "Open",
   "user": null,
@@ -80,10 +92,13 @@
   "name": "j5jlvanm7u",
   "permitted_roles": [
    {
+    "parent": "j5jlvanm7u",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000001",
   "status": "Open",
   "user": null,
@@ -98,10 +113,13 @@
   "name": "ugemvpa9kp",
   "permitted_roles": [
    {
+    "parent": "ugemvpa9kp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000002",
   "status": "Open",
   "user": null,
@@ -116,10 +134,13 @@
   "name": "5b6tcqu5nu",
   "permitted_roles": [
    {
+    "parent": "5b6tcqu5nu",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000003",
   "status": "Open",
   "user": null,
@@ -134,10 +155,13 @@
   "name": "dtks23ip40",
   "permitted_roles": [
    {
+    "parent": "dtks23ip40",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000004",
   "status": "Open",
   "user": null,
@@ -152,10 +176,13 @@
   "name": "gmasqnidup",
   "permitted_roles": [
    {
+    "parent": "gmasqnidup",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000005",
   "status": "Open",
   "user": null,
@@ -170,10 +197,13 @@
   "name": "hdi5srlhg5",
   "permitted_roles": [
    {
+    "parent": "hdi5srlhg5",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000006",
   "status": "Open",
   "user": null,
@@ -188,10 +218,13 @@
   "name": "i4r4oj15d3",
   "permitted_roles": [
    {
+    "parent": "i4r4oj15d3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000007",
   "status": "Open",
   "user": null,
@@ -206,10 +239,13 @@
   "name": "ilvmjgfte2",
   "permitted_roles": [
    {
+    "parent": "ilvmjgfte2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000008",
   "status": "Open",
   "user": null,
@@ -224,10 +260,13 @@
   "name": "jbl6ndkmp2",
   "permitted_roles": [
    {
+    "parent": "jbl6ndkmp2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000009",
   "status": "Open",
   "user": null,
@@ -242,10 +281,13 @@
   "name": "pa37ramaub",
   "permitted_roles": [
    {
+    "parent": "pa37ramaub",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000010",
   "status": "Open",
   "user": null,
@@ -260,10 +302,13 @@
   "name": "ravno0c6jj",
   "permitted_roles": [
    {
+    "parent": "ravno0c6jj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000011",
   "status": "Open",
   "user": null,
@@ -278,10 +323,13 @@
   "name": "tggu9jbv7v",
   "permitted_roles": [
    {
+    "parent": "tggu9jbv7v",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000012",
   "status": "Open",
   "user": null,
@@ -296,10 +344,13 @@
   "name": "u93c8ppo0q",
   "permitted_roles": [
    {
+    "parent": "u93c8ppo0q",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000013",
   "status": "Open",
   "user": null,
@@ -314,10 +365,13 @@
   "name": "vor486r6ra",
   "permitted_roles": [
    {
+    "parent": "vor486r6ra",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000014",
   "status": "Open",
   "user": null,
@@ -332,10 +386,13 @@
   "name": "1tjh2k4gjg",
   "permitted_roles": [
    {
+    "parent": "1tjh2k4gjg",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000015",
   "status": "Open",
   "user": null,
@@ -350,10 +407,13 @@
   "name": "38p50hoqlo",
   "permitted_roles": [
    {
+    "parent": "38p50hoqlo",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000016",
   "status": "Open",
   "user": null,
@@ -368,10 +428,13 @@
   "name": "4icit8sb2j",
   "permitted_roles": [
    {
+    "parent": "4icit8sb2j",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000017",
   "status": "Open",
   "user": null,
@@ -386,10 +449,13 @@
   "name": "bl58lvbsfr",
   "permitted_roles": [
    {
+    "parent": "bl58lvbsfr",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000018",
   "status": "Open",
   "user": null,
@@ -404,10 +470,13 @@
   "name": "cs9c674p28",
   "permitted_roles": [
    {
+    "parent": "cs9c674p28",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000019",
   "status": "Open",
   "user": null,
@@ -422,10 +491,13 @@
   "name": "e6ff0ggek3",
   "permitted_roles": [
    {
+    "parent": "e6ff0ggek3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000020",
   "status": "Completed",
   "user": null,
@@ -440,10 +512,13 @@
   "name": "hubve50hn4",
   "permitted_roles": [
    {
+    "parent": "hubve50hn4",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000021",
   "status": "Open",
   "user": null,
@@ -458,10 +533,13 @@
   "name": "lcb55764e8",
   "permitted_roles": [
    {
+    "parent": "lcb55764e8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000022",
   "status": "Open",
   "user": null,
@@ -476,10 +554,13 @@
   "name": "mfj43onmui",
   "permitted_roles": [
    {
+    "parent": "mfj43onmui",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000020",
   "status": "Open",
   "user": null,
@@ -494,10 +575,13 @@
   "name": "8qt464ckjh",
   "permitted_roles": [
    {
+    "parent": "8qt464ckjh",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000023",
   "status": "Completed",
   "user": null,
@@ -512,10 +596,13 @@
   "name": "8sulcp7ksi",
   "permitted_roles": [
    {
+    "parent": "8sulcp7ksi",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
-  "reference_doctype": "lagna_taq",
+  "reference_doctype": "exam_lag_data",
   "reference_name": "8su4lllt3h",
   "status": "Completed",
   "user": null,
@@ -530,10 +617,13 @@
   "name": "9d1b5p340u",
   "permitted_roles": [
    {
+    "parent": "9d1b5p340u",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000023",
   "status": "Open",
   "user": null,
@@ -548,10 +638,13 @@
   "name": "aqa52pmvn8",
   "permitted_roles": [
    {
+    "parent": "aqa52pmvn8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000024",
   "status": "Open",
   "user": null,
@@ -566,10 +659,13 @@
   "name": "askmn9sral",
   "permitted_roles": [
    {
+    "parent": "askmn9sral",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
-  "reference_doctype": "lagna_taq",
+  "reference_doctype": "exam_lag_data",
   "reference_name": "مكتب أوقاف طرابلس - AD-معاذ مفتاح البهلول",
   "status": "Completed",
   "user": null,
@@ -584,10 +680,13 @@
   "name": "o9lojt7du3",
   "permitted_roles": [
    {
+    "parent": "o9lojt7du3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000025",
   "status": "Open",
   "user": null,
@@ -602,10 +701,13 @@
   "name": "os7m6ilu43",
   "permitted_roles": [
    {
+    "parent": "os7m6ilu43",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000026",
   "status": "Open",
   "user": null,
@@ -620,10 +722,13 @@
   "name": "otr2mqgf8j",
   "permitted_roles": [
    {
+    "parent": "otr2mqgf8j",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
-  "reference_doctype": "lagna_taq",
+  "reference_doctype": "exam_lag_data",
   "reference_name": "مكتب أوقاف طرابلس - AD-قثلثقاقفنت",
   "status": "Open",
   "user": null,
@@ -638,10 +743,13 @@
   "name": "7go3ltii56",
   "permitted_roles": [
    {
+    "parent": "7go3ltii56",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000027",
   "status": "Completed",
   "user": null,
@@ -656,10 +764,13 @@
   "name": "7m6pis3m93",
   "permitted_roles": [
    {
+    "parent": "7m6pis3m93",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
-  "reference_doctype": "lagna_taq",
+  "reference_doctype": "exam_lag_data",
   "reference_name": "مكتب أوقاف طرابلس - AD-ناصر مختار الورشفاني",
   "status": "Completed",
   "user": null,
@@ -674,10 +785,13 @@
   "name": "2ron5clh27",
   "permitted_roles": [
    {
+    "parent": "2ron5clh27",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "0000027",
   "status": "Open",
   "user": null,
@@ -692,10 +806,13 @@
   "name": "tet5smqt6j",
   "permitted_roles": [
    {
+    "parent": "tet5smqt6j",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "علي محمد علي ساسي-0000028",
   "status": "Open",
   "user": null,
@@ -710,6 +827,9 @@
   "name": "itsjvf1viq",
   "permitted_roles": [
    {
+    "parent": "itsjvf1viq",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -728,6 +848,9 @@
   "name": "iv3volpsc3",
   "permitted_roles": [
    {
+    "parent": "iv3volpsc3",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -746,6 +869,9 @@
   "name": "jfbsur4sh8",
   "permitted_roles": [
    {
+    "parent": "jfbsur4sh8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -764,6 +890,9 @@
   "name": "jgab1r53q9",
   "permitted_roles": [
    {
+    "parent": "jgab1r53q9",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -782,6 +911,9 @@
   "name": "kfe732s4fc",
   "permitted_roles": [
    {
+    "parent": "kfe732s4fc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -800,6 +932,9 @@
   "name": "kpqsl7qf52",
   "permitted_roles": [
    {
+    "parent": "kpqsl7qf52",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -818,10 +953,13 @@
   "name": "mr7i3emggc",
   "permitted_roles": [
    {
+    "parent": "mr7i3emggc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "مالك انديش-0000029",
   "status": "Completed",
   "user": null,
@@ -836,10 +974,13 @@
   "name": "n38rk1qvu1",
   "permitted_roles": [
    {
+    "parent": "n38rk1qvu1",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
-  "reference_doctype": "lagna_taq",
+  "reference_doctype": "exam_lag_data",
   "reference_name": "مكتب أوقاف الخمس - AD-مالك انديش",
   "status": "Completed",
   "user": null,
@@ -854,10 +995,13 @@
   "name": "p4m06fit4h",
   "permitted_roles": [
    {
+    "parent": "p4m06fit4h",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "مالك انديش-0000029",
   "status": "Completed",
   "user": null,
@@ -872,6 +1016,9 @@
   "name": "plv98ao4rd",
   "permitted_roles": [
    {
+    "parent": "plv98ao4rd",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -890,6 +1037,9 @@
   "name": "qbcr88j4ge",
   "permitted_roles": [
    {
+    "parent": "qbcr88j4ge",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -908,6 +1058,9 @@
   "name": "05g4e185mi",
   "permitted_roles": [
    {
+    "parent": "05g4e185mi",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -926,6 +1079,9 @@
   "name": "0au277td2a",
   "permitted_roles": [
    {
+    "parent": "0au277td2a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -944,6 +1100,9 @@
   "name": "0j3j53j5tg",
   "permitted_roles": [
    {
+    "parent": "0j3j53j5tg",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -962,10 +1121,13 @@
   "name": "b1ojghauvt",
   "permitted_roles": [
    {
+    "parent": "b1ojghauvt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عاشور بنور-0000030",
   "status": "Completed",
   "user": null,
@@ -980,10 +1142,13 @@
   "name": "bebotvjkth",
   "permitted_roles": [
    {
+    "parent": "bebotvjkth",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
-  "reference_doctype": "lagna_taq",
+  "reference_doctype": "exam_lag_data",
   "reference_name": "مكتب أوقاف طرابلس - AD-أحمد عاشور بنور",
   "status": "Completed",
   "user": null,
@@ -998,10 +1163,13 @@
   "name": "e28gqcqjkk",
   "permitted_roles": [
    {
+    "parent": "e28gqcqjkk",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عاشور بنور-0000030",
   "status": "Completed",
   "user": null,
@@ -1016,10 +1184,13 @@
   "name": "e3n7u00d7i",
   "permitted_roles": [
    {
+    "parent": "e3n7u00d7i",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عاشور بنور-0000030",
   "status": "Completed",
   "user": null,
@@ -1034,10 +1205,13 @@
   "name": "e4cbt95o4c",
   "permitted_roles": [
    {
+    "parent": "e4cbt95o4c",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "أحمد عاشور بنور-0000030",
   "status": "Open",
   "user": null,
@@ -1052,6 +1226,9 @@
   "name": "g2eu9jfalc",
   "permitted_roles": [
    {
+    "parent": "g2eu9jfalc",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1070,6 +1247,9 @@
   "name": "gdroflbjsp",
   "permitted_roles": [
    {
+    "parent": "gdroflbjsp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1088,6 +1268,9 @@
   "name": "govonpf8gq",
   "permitted_roles": [
    {
+    "parent": "govonpf8gq",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1106,6 +1289,9 @@
   "name": "gpqavg904h",
   "permitted_roles": [
    {
+    "parent": "gpqavg904h",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1124,6 +1310,9 @@
   "name": "hdnl31auj0",
   "permitted_roles": [
    {
+    "parent": "hdnl31auj0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1142,10 +1331,13 @@
   "name": "hieoko4361",
   "permitted_roles": [
    {
+    "parent": "hieoko4361",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "مالك انديش-0000029",
   "status": "Open",
   "user": null,
@@ -1160,6 +1352,9 @@
   "name": "usc2saku5i",
   "permitted_roles": [
    {
+    "parent": "usc2saku5i",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1178,6 +1373,9 @@
   "name": "v8ip4p068a",
   "permitted_roles": [
    {
+    "parent": "v8ip4p068a",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1196,6 +1394,9 @@
   "name": "vhf5cq4r86",
   "permitted_roles": [
    {
+    "parent": "vhf5cq4r86",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1214,6 +1415,9 @@
   "name": "vj8lvp12lj",
   "permitted_roles": [
    {
+    "parent": "vj8lvp12lj",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1232,6 +1436,9 @@
   "name": "vsp9h0rot8",
   "permitted_roles": [
    {
+    "parent": "vsp9h0rot8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1250,10 +1457,13 @@
   "name": "77u14jr487",
   "permitted_roles": [
    {
+    "parent": "77u14jr487",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "نافع الهادي زهمول-0000031",
   "status": "Completed",
   "user": null,
@@ -1268,10 +1478,13 @@
   "name": "7gkc58f213",
   "permitted_roles": [
    {
+    "parent": "7gkc58f213",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
-  "reference_doctype": "lagna_taq",
+  "reference_doctype": "exam_lag_data",
   "reference_name": "مكتب أوقاف طرابلس - AD-نافع الهادي زهمول",
   "status": "Completed",
   "user": null,
@@ -1286,10 +1499,13 @@
   "name": "8ja6njmmip",
   "permitted_roles": [
    {
+    "parent": "8ja6njmmip",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "System Manager"
    }
   ],
-  "reference_doctype": "taq_data1",
+  "reference_doctype": "waed_info",
   "reference_name": "نافع الهادي زهمول-0000031",
   "status": "Open",
   "user": null,
@@ -1304,6 +1520,9 @@
   "name": "8vg5n461f8",
   "permitted_roles": [
    {
+    "parent": "8vg5n461f8",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
     "role": "All"
    }
   ],
@@ -1312,5 +1531,26 @@
   "status": "Open",
   "user": null,
   "workflow_state": "تكليف بنشاط"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-22 16:31:49.364164",
+  "name": "ialqhhtg2n",
+  "permitted_roles": [
+   {
+    "parent": "ialqhhtg2n",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "موظفي الثقافية بالديوان"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "احمد محمد النجار-office-001-024",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "New"
  }
 ]

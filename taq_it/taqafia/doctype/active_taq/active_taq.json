@@ -60,7 +60,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "\u0627\u0633\u0645 \u0627\u0644\u0648\u0627\u0639\u0638 ",
-   "options": "taq_data1",
+   "options": "waed_info",
    "reqd": 1
   },
   {
@@ -80,7 +80,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-11-04 17:01:26.813582",
+ "modified": "2026-06-22 15:21:25.507312",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "active_taq",

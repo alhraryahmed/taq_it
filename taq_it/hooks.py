@@ -11,7 +11,7 @@ fixtures = [
     {"doctype": "Property Setter"},
     {"doctype": "Client Script"},
     {"doctype": "Server Script"},
-    {"doctype": "Workspace"},
+  #  {"doctype": "Workspace"},
     {"doctype": "Dashboard"},
     {"doctype": "Dashboard Chart"},
     {"doctype": "Notification"},
@@ -24,7 +24,7 @@ fixtures = [
     {"doctype": "Web Form"},
     {"doctype": "Custom HTML Block"},
     {"doctype": "Translation"},
-    {"doctype": "DocType"},
+  #  {"doctype": "DocType"},
     {"doctype": "Role"},
     {"doctype": "Role Permission for Page and Report"},
     {"doctype": "System Settings"},
@@ -57,8 +57,8 @@ doc_events = {
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/taq_it/css/taq_it.css"
-# app_include_js = "/assets/taq_it/js/taq_it.js"
+#app_include_js  = ["taqfia_utils.js"]
+#app_include_css = ["taqfia_global.css"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/taq_it/css/taq_it.css"

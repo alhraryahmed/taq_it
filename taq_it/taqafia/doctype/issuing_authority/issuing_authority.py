@@ -1,9 +1,9 @@
-# Copyright (c) 2025, ahmeed and contributors
+# Copyright (c) 2026, ahmeed and contributors
 # For license information, please see license.txt
 
 # import frappe
 from frappe.model.document import Document
 
 
-class taq_data1(Document):
+class Issuing_Authority(Document):
 	pass

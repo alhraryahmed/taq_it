@@ -13,9 +13,9 @@ IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 
 
-class IntegrationTestlagna_taq(IntegrationTestCase):
+class IntegrationTestexam_lag_data(IntegrationTestCase):
 	"""
-	Integration tests for lagna_taq.
+	Integration tests for exam_lag_data.
 	Use this class for testing interactions between multiple components.
 	"""
 
