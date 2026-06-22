@@ -7,9 +7,10 @@
  "field_order": [
   "preachers_info_section",
   "id",
+  "gender",
+  "column_break_vpde",
   "full_name",
   "office",
-  "gender",
   "age"
  ],
  "fields": [
@@ -46,12 +47,16 @@
    "fieldname": "age",
    "fieldtype": "Int",
    "label": "age"
+  },
+  {
+   "fieldname": "column_break_vpde",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-22 16:46:26.765066",
+ "modified": "2026-06-22 16:58:41.643849",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "waed_lagna",
