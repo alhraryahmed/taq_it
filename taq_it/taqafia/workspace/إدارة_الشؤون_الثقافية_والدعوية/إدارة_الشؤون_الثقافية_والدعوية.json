@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"1-yKJCCL22\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0634\u0624\u0648\u0646 \u0627\u0644\u062b\u0642\u0627\u0641\u064a\u0640\u0640\u0640\u0640\u0640\u0640\u0629 \u0648\u0627\u0644\u062f\u0639\u0648\u064a\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0629</b></span>\",\"col\":12}},{\"id\":\"Yb48G8zQe_\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0642\u0633\u0645 \u0627\u0644\u0648\u0639\u0640\u0640\u0640\u0640\u0640\u0627\u0638\",\"col\":5}},{\"id\":\"SYCiqooC16\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0642\u0633\u0645 \u0627\u0644\u0641\u0627\u0639\u0644\u064a\u0627\u062a \u0648\u0627\u0644\u0627\u0646\u0634\u0637\u0629\",\"col\":5}},{\"id\":\"3jK0z58CLP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0625\u062d\u0627\u0644\u0627\u062a \u0627\u0644\u0648\u0639\u0627\u0638 \u0627\u0644\u0645\u062a\u0642\u062f\u0645\u064a\u0646 \u0627\u0644\u062c\u062f\u062f\",\"col\":5}},{\"id\":\"TVnGCz3dkm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0646\u0634\u0637\u0629 \u0644\u0644\u0648\u0639\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0627\u0638\",\"col\":5}},{\"id\":\"tDmlClnNKV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u062d\u0627\u0644 \u0627\u0644\u0649 \u0644\u062c\u0646\u0629 \u0642\u0628\u0648\u0644 \u0627\u0644\u0648\u0639\u0627\u0638\",\"col\":5}},{\"id\":\"Q2IMMoNuU7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0646\u0634\u0637\u0629 \u0644\u0644\u0645\u0643\u0640\u0640\u0640\u0640\u0640\u0627\u062a\u0628\",\"col\":5}},{\"id\":\"aVPWKOjZm5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7bXZC08AKn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LptPj4mOuK\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"arEk7Mdx16\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0648\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631\",\"col\":3}}]",
+ "content": "[{\"id\":\"1-yKJCCL22\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0634\u0624\u0648\u0646 \u0627\u0644\u062b\u0642\u0627\u0641\u064a\u0640\u0640\u0640\u0640\u0640\u0640\u0629 \u0648\u0627\u0644\u062f\u0639\u0648\u064a\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0629</b></span>\",\"col\":12}},{\"id\":\"B2SCQYLI5d\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LptPj4mOuK\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"1QJvJsRpGU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span><span class=\\\"h3\\\">\u0642\u0633\u0645 \u0627\u0644\u0648\u0639\u0640\u0640\u0640\u0640\u0640\u0627\u0638</span>\",\"col\":12}},{\"id\":\"_X6ZdiLx0Y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0625\u0636\u0627\u0641\u0629 \u0648\u0627\u0639\u0638 \u062c\u062f\u064a\u062f\",\"col\":3}},{\"id\":\"3jK0z58CLP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0625\u062d\u0627\u0644\u0627\u062a \u0627\u0644\u0648\u0639\u0627\u0638 \u0627\u0644\u0645\u062a\u0642\u062f\u0645\u064a\u0646 \u0627\u0644\u062c\u062f\u062f\",\"col\":3}},{\"id\":\"tDmlClnNKV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0645\u062d\u0627\u0644 \u0627\u0644\u0649 \u0644\u062c\u0646\u0629 \u0642\u0628\u0648\u0644 \u0627\u0644\u0648\u0639\u0627\u0638\",\"col\":3}},{\"id\":\"aVPWKOjZm5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7bXZC08AKn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SYCiqooC16\",\"type\":\"card\",\"data\":{\"card_name\":\"\u0642\u0633\u0645 \u0627\u0644\u0641\u0627\u0639\u0644\u064a\u0627\u062a \u0648\u0627\u0644\u0627\u0646\u0634\u0637\u0629\",\"col\":5}},{\"id\":\"TVnGCz3dkm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0646\u0634\u0637\u0629 \u0644\u0644\u0648\u0639\u0640\u0640\u0640\u0640\u0640\u0640\u0640\u0627\u0638\",\"col\":5}},{\"id\":\"Q2IMMoNuU7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u0646\u0634\u0637\u0629 \u0644\u0644\u0645\u0643\u0640\u0640\u0640\u0640\u0640\u0627\u062a\u0628\",\"col\":5}},{\"id\":\"arEk7Mdx16\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"\u0627\u0644\u0627\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0648\u0627\u0644\u062a\u0642\u0627\u0631\u064a\u0631\",\"col\":3}}]",
  "creation": "2026-06-04 17:12:14.414299",
  "custom_blocks": [],
  "docstatus": 0,
@@ -62,39 +62,9 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "description": "\u0641\u064a\u0645\u0627 \u064a\u062e\u0635 \u0627\u0644\u0648\u0639\u0627\u0638",
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "\u0642\u0633\u0645 \u0627\u0644\u0648\u0639\u0640\u0640\u0640\u0640\u0640\u0627\u0638",
-   "link_count": 2,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "\u0625\u0636\u0627\u0641\u0629 \u0648\u0627\u0639\u0638 \u062c\u062f\u064a\u062f",
-   "link_count": 0,
-   "link_to": "waed_info",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "\u0644\u062c\u0646\u0629 \u0642\u0628\u0648\u0644 \u0627\u0644\u0648\u0639\u0627\u0638",
-   "link_count": 0,
-   "link_to": "exam_lag_data",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
   }
  ],
- "modified": "2026-06-22 15:37:28.390565",
+ "modified": "2026-06-22 17:53:06.353424",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0634\u0624\u0648\u0646 \u0627\u0644\u062b\u0642\u0627\u0641\u064a\u0629 \u0648\u0627\u0644\u062f\u0639\u0648\u064a\u0629",
@@ -119,7 +89,15 @@
    "doc_view": "List",
    "label": "\u0625\u062d\u0627\u0644\u0627\u062a \u0627\u0644\u0648\u0639\u0627\u0638 \u0627\u0644\u0645\u062a\u0642\u062f\u0645\u064a\u0646 \u0627\u0644\u062c\u062f\u062f",
    "link_to": "waed_info",
-   "stats_filter": "[[\"taq_data1\",\"workflow_state_data\",\"=\",\"\u062c\u062f\u064a\u062f\",false]]",
+   "stats_filter": "[[\"waed_info\",\"workflow_state_data\",\"=\",\"Scheduling an appointment\",false]]",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "label": "\u0625\u0636\u0627\u0641\u0629 \u0648\u0627\u0639\u0638 \u062c\u062f\u064a\u062f",
+   "link_to": "waed_info",
+   "stats_filter": "[]",
    "type": "DocType"
   },
   {
