@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{namee}-{office}-{###}",
  "creation": "2025-09-22 11:14:34.524167",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -14,6 +13,7 @@
   "column_break_clzq",
   "num_w",
   "residence_place",
+  "gender",
   "section_break_txdh",
   "place",
   "column_break_qmsx",
@@ -43,9 +43,7 @@
   "section_break_runh",
   "attended_lessons",
   "column_break_dnei",
-  "signature",
-  "section_break_egha",
-  "lagna_reference"
+  "signature"
  ],
  "fields": [
   {
@@ -264,25 +262,19 @@
    "placeholder": "Attach the profile picture."
   },
   {
-   "fieldname": "section_break_egha",
-   "fieldtype": "Section Break",
-   "label": "Examination Committee"
-  },
-  {
-   "fieldname": "lagna_reference",
+   "fieldname": "gender",
    "fieldtype": "Link",
-   "label": "lagna reference",
-   "options": "exam_lag_data"
+   "label": "gender",
+   "options": "Gender"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-22 16:11:37.111660",
+ "modified": "2026-06-23 17:58:41.414876",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "waed_info",
- "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -341,6 +333,19 @@
    "read": 1,
    "report": 1,
    "role": "\u0645\u062f\u064a\u0631 \u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0634\u0624\u0648\u0646 \u0627\u0644\u062b\u0642\u0627\u0641\u064a\u0629 \u0648\u0627\u0644\u062f\u0639\u0648\u064a\u0629",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
    "select": 1,
    "share": 1,
    "write": 1

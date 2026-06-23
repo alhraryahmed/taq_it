@@ -1552,5 +1552,272 @@
   "status": "Open",
   "user": null,
   "workflow_state": "New"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "مدير إدارة الشؤون الثقافية والدعوية",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:23:13.823316",
+  "name": "lsi3or9bka",
+  "permitted_roles": [
+   {
+    "parent": "lsi3or9bka",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "مدير إدارة الشؤون الثقافية والدعوية"
+   },
+   {
+    "parent": "lsi3or9bka",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "احمد النجار-مكتب سوق الجمعة-0001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "New"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "مدير إدارة الشؤون الثقافية والدعوية",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:25:05.117416",
+  "name": "mvbndt4bvs",
+  "permitted_roles": [
+   {
+    "parent": "mvbndt4bvs",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "مدير إدارة الشؤون الثقافية والدعوية"
+   },
+   {
+    "parent": "mvbndt4bvs",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "محود الورفلي-مكتب طرابلس-0001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "New"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "مدير إدارة الشؤون الثقافية والدعوية",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:25:22.541555",
+  "name": "n4pniiqule",
+  "permitted_roles": [
+   {
+    "parent": "n4pniiqule",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "مدير إدارة الشؤون الثقافية والدعوية"
+   },
+   {
+    "parent": "n4pniiqule",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "كمال النعاس-مكتب طرابلس-0001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "New"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "مدير إدارة الشؤون الثقافية والدعوية",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:26:36.679169",
+  "name": "nrurseus1e",
+  "permitted_roles": [
+   {
+    "parent": "nrurseus1e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "مدير إدارة الشؤون الثقافية والدعوية"
+   },
+   {
+    "parent": "nrurseus1e",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "علي الشعتاني-مكتب سوق الجمعة-0001",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "New"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "مدير إدارة الشؤون الثقافية والدعوية",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:27:12.156351",
+  "name": "o710h9bnc2",
+  "permitted_roles": [
+   {
+    "parent": "o710h9bnc2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "مدير إدارة الشؤون الثقافية والدعوية"
+   },
+   {
+    "parent": "o710h9bnc2",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "علي الشعتاني-مكتب سوق الجمعة-0002",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "New"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:38:39.239906",
+  "name": "utou7hjjvm",
+  "permitted_roles": [
+   {
+    "parent": "utou7hjjvm",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   },
+   {
+    "parent": "utou7hjjvm",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "مدير إدارة الشؤون الثقافية والدعوية"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "محود-الورفلي-مكتب-طرابلس-0033",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "New"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:39:39.568799",
+  "name": "vgjapmicno",
+  "permitted_roles": [
+   {
+    "parent": "vgjapmicno",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "احمد النجار-مكتب سوق الجمعة-0001",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduling an appointment"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:39:42.584700",
+  "name": "vhhfhcdhjp",
+  "permitted_roles": [
+   {
+    "parent": "vhhfhcdhjp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "محود الورفلي-مكتب طرابلس-0001",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduling an appointment"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:39:49.455139",
+  "name": "vjmp4tuf6b",
+  "permitted_roles": [
+   {
+    "parent": "vjmp4tuf6b",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "كمال النعاس-مكتب طرابلس-0001",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduling an appointment"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 15:39:52.691504",
+  "name": "vkm6ei3olr",
+  "permitted_roles": [
+   {
+    "parent": "vkm6ei3olr",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "علي الشعتاني-مكتب سوق الجمعة-0001",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduling an appointment"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-23 17:59:00.466182",
+  "name": "h5copg8vrt",
+  "permitted_roles": [
+   {
+    "parent": "h5copg8vrt",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "علي الشعتاني-مكتب سوق الجمعة-0002",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduling an appointment"
  }
 ]

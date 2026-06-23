@@ -1,9 +1,18 @@
-# Copyright (c) 2025, ahmeed and contributors
-# For license information, please see license.txt
-
-# import frappe
+import frappe
+import re
 from frappe.model.document import Document
 
 
 class waed_info(Document):
-	pass
+
+    def autoname(self):
+        namee = (self.namee or "").strip().lower()
+        office = (self.office or "").strip().lower()
+
+        namee = re.sub(r"\s+", "-", namee)
+        office = re.sub(r"\s+", "-", office)
+
+        # GLOBAL SERIES FIXED
+        series_number = frappe.model.naming.make_autoname(".####")
+
+        self.name = f"{namee}-{office}-{series_number}"

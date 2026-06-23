@@ -97,5 +97,27 @@
   "name": "فتح تطبيق خارج النظام",
   "script": "frappe.ui.form.on('Issue', {\r\n    remote_desktob: function(frm) {\r\n        fetch('http://127.0.0.1:5000/run_support')\r\n            .then(res => res.text())\r\n            .then(data => frappe.msgprint(data))\r\n            .catch(err => frappe.msgprint('خطأ في تشغيل التطبيق: ' + err));\r\n    }\r\n});\r\n",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "exam_group_date",
+  "enabled": 1,
+  "modified": "2026-06-23 16:36:14.810839",
+  "module": "taqafia",
+  "name": "refrre",
+  "script": "frappe.ui.form.on('exam_group_date', {\r\n    get_preachers: function(frm) {\r\n        frm.call('get_preachers').then(r => {\r\n            let rows = frm.doc.waed_info_to_exam || [];\r\n\r\n            // تفعيل fetch_from يدويًا لكل صف، كأنه تم اختياره من المستخدم\r\n            let promises = rows.map(row => {\r\n                return frappe.model.set_value(row.doctype, row.name, 'waed_info', row.waed_info);\r\n            });\r\n\r\n            Promise.all(promises).then(() => {\r\n                frm.refresh_field('waed_info_to_exam');\r\n                frm.refresh_field('count_waes_exam');\r\n                frappe.show_alert({\r\n                    message: __('تم جلب {0} واعظ بنجاح', [rows.length]),\r\n                    indicator: 'green'\r\n                });\r\n            });\r\n        });\r\n    }\r\n});\r\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "exam_group_date",
+  "enabled": 1,
+  "modified": "2026-06-23 17:47:47.290474",
+  "module": "taqafia",
+  "name": "max_waed_exam",
+  "script": "frappe.ui.form.on('exam_group_date', {\r\n    count_to_exam(frm) {\r\n        const count = frm.doc.count_to_exam;\r\n\r\n        if (count <= 0 || count > 30) {\r\n            frappe.msgprint({\r\n                title: __('تنبيه'),\r\n                indicator: 'red',\r\n                message: __('يجب أن يكون عدد المتقدمين بين 1 و 30')\r\n            });\r\n\r\n            frm.set_value('count_to_exam', null);\r\n        }\r\n    },\r\n\r\n    validate(frm) {\r\n        const count = frm.doc.count_to_exam;\r\n\r\n        if (count <= 0 || count > 30) {\r\n            frappe.throw(__('يجب أن يكون عدد المتقدمين بين 1 و 30'));\r\n        }\r\n    }\r\n});",
+  "view": "Form"
  }
 ]

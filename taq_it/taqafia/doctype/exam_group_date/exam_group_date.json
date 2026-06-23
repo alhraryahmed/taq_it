@@ -9,7 +9,7 @@
   "exam_time",
   "column_break_sjhy",
   "examination_committee",
-  "count_waes_exam",
+  "count_to_exam",
   "section_break_swuv",
   "get_preachers",
   "waed_info_to_exam"
@@ -40,11 +40,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "count_waes_exam",
-   "fieldtype": "Data",
-   "label": "The number of preachers to be tested"
-  },
-  {
    "fieldname": "waed_info_to_exam",
    "fieldtype": "Table",
    "label": "Information about the preachers to be tested",
@@ -54,12 +49,18 @@
    "fieldname": "get_preachers",
    "fieldtype": "Button",
    "label": "get preachers"
+  },
+  {
+   "default": "30",
+   "fieldname": "count_to_exam",
+   "fieldtype": "Data",
+   "label": "The number of preachers to be tested"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-22 16:22:52.723889",
+ "modified": "2026-06-23 16:53:18.953868",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "exam_group_date",

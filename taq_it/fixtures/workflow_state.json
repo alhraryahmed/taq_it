@@ -165,9 +165,9 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-06-18 16:28:08.664918",
+  "modified": "2026-06-23 18:00:37.937937",
   "name": "New",
-  "style": "",
+  "style": "Info",
   "workflow_state_name": "New"
  },
  {
@@ -210,9 +210,18 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-06-22 14:40:49.260942",
+  "modified": "2026-06-23 17:59:56.496945",
   "name": "Scheduling an appointment",
-  "style": "",
+  "style": "Primary",
   "workflow_state_name": "Scheduling an appointment"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-06-23 12:16:49.262583",
+  "name": "referred for the exam",
+  "style": "",
+  "workflow_state_name": "referred for the exam"
  }
 ]

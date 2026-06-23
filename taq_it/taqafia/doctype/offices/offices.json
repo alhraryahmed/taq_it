@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "office-.###",
+ "autoname": "field:office_name",
  "creation": "2026-06-11 14:05:43.495628",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -22,11 +22,11 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-11 14:24:35.867988",
+ "modified": "2026-06-23 15:21:06.562818",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "Offices",
- "naming_rule": "Expression",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
