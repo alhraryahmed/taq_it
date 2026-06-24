@@ -74,24 +74,5 @@
   "reference_doctype": null,
   "script": "docname = frappe.form_dict.docname\r\n\r\nif not docname:\r\n    frappe.throw(\"لم يتم إرسال رقم الطلب\")\r\n\r\n# جلب الطلب\r\napplicant = frappe.get_doc(\"taq_data1\", docname)\r\n\r\n# منع الإحالة المكررة\r\nif applicant.taq_referred:\r\n    frappe.throw(\"تمت إحالة هذا الطلب مسبقاً\")\r\n\r\n# إنشاء سجل اللجنة\r\nlagna = frappe.get_doc({\r\n    \"doctype\": \"lagna_taq\",\r\n    \"nameee\": applicant.name,\r\n    \"makteeeb\": applicant.office\r\n})\r\n\r\nlagna.insert()\r\n\r\n# تحديث الطلب الأصلي\r\napplicant.db_set(\"taq_referred\", 1)\r\napplicant.db_set(\"lagna_reference\", lagna.name)\r\n\r\n\r\n# إرجاع النتيجة\r\nfrappe.response[\"message\"] = {\r\n    \"success\": True,\r\n    \"lagna_name\": lagna.name\r\n}",
   "script_type": "API"
- },
- {
-  "allow_guest": 0,
-  "api_method": null,
-  "cron_format": null,
-  "disabled": 1,
-  "docstatus": 0,
-  "doctype": "Server Script",
-  "doctype_event": "After Save",
-  "enable_rate_limit": 0,
-  "event_frequency": "All",
-  "modified": "2026-06-22 16:24:03.741661",
-  "module": "taqafia",
-  "name": "refer_to_committee",
-  "rate_limit_count": 5,
-  "rate_limit_seconds": 86400,
-  "reference_doctype": "waed_info",
-  "script": "if (\r\n    doc.workflow_state_data == \"Referred for an appointment\"\r\n    and not doc.taq_referred\r\n):\r\n\r\n    lagna = frappe.get_doc({\r\n        \"doctype\": \"lagna_taq\",\r\n        \"nameee\": doc.name,\r\n        \"makteeeb\": doc.office\r\n    })\r\n\r\n    lagna.insert(ignore_permissions=True)\r\n\r\n    doc.db_set(\"taq_referred\", 1)\r\n    doc.db_set(\"lagna_reference\", lagna.name)\r\n\r\n    frappe.msgprint(\r\n        f\"تمت الإحالة وإنشاء سجل اللجنة: {lagna.name}\"\r\n    )",
-  "script_type": "DocType Event"
  }
 ]

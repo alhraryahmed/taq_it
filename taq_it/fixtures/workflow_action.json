@@ -1,5 +1,131 @@
 [
  {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 17:05:11.665388",
+  "name": "tcchhag7p0",
+  "permitted_roles": [
+   {
+    "parent": "tcchhag7p0",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_group_date",
+  "reference_name": "EX-2026-06-26-03",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "In Progress"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 17:05:25.395394",
+  "name": "tglmicf32d",
+  "permitted_roles": [
+   {
+    "parent": "tglmicf32d",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "مسعود-الفلاح-مكتب-سوق-الجمعة-0040",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduling an appointment"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 16:25:53.919943",
+  "name": "6bjeo03h8g",
+  "permitted_roles": [
+   {
+    "parent": "6bjeo03h8g",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_group_date",
+  "reference_name": "EX-2026-06-26-03",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 16:26:55.355880",
+  "name": "6upf076ojp",
+  "permitted_roles": [
+   {
+    "parent": "6upf076ojp",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_group_date",
+  "reference_name": "EX-2026-06-25-04",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 16:27:08.906614",
+  "name": "7312qn3l3f",
+  "permitted_roles": [
+   {
+    "parent": "7312qn3l3f",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_group_date",
+  "reference_name": "EX-2026-06-25-02",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 16:27:08.935348",
+  "name": "731cr9n8pg",
+  "permitted_roles": [
+   {
+    "parent": "731cr9n8pg",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_group_date",
+  "reference_name": "EX-2026-06-25-01",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "Scheduled"
+ },
+ {
   "completed_by": "Administrator",
   "completed_by_role": "System Manager",
   "docstatus": 0,
@@ -1819,5 +1945,89 @@
   "status": "Open",
   "user": null,
   "workflow_state": "Scheduling an appointment"
+ },
+ {
+  "completed_by": "Administrator",
+  "completed_by_role": "All",
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 15:28:13.190600",
+  "name": "4i348ngfle",
+  "permitted_roles": [
+   {
+    "parent": "4i348ngfle",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_lag_data",
+  "reference_name": "Committee-2026-06-01",
+  "status": "Completed",
+  "user": null,
+  "workflow_state": "New"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 16:28:38.147114",
+  "name": "7uth9atcle",
+  "permitted_roles": [
+   {
+    "parent": "7uth9atcle",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_group_date",
+  "reference_name": "EX-2026-06-25-01",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "In Progress"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 16:28:43.972961",
+  "name": "80nckdooab",
+  "permitted_roles": [
+   {
+    "parent": "80nckdooab",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "exam_group_date",
+  "reference_name": "EX-2026-06-25-02",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "In Progress"
+ },
+ {
+  "completed_by": null,
+  "completed_by_role": null,
+  "docstatus": 0,
+  "doctype": "Workflow Action",
+  "modified": "2026-06-24 16:48:47.357120",
+  "name": "jopi6ou1ir",
+  "permitted_roles": [
+   {
+    "parent": "jopi6ou1ir",
+    "parentfield": "permitted_roles",
+    "parenttype": "Workflow Action",
+    "role": "All"
+   }
+  ],
+  "reference_doctype": "waed_info",
+  "reference_name": "مسعود-الفلاح-مكتب-سوق-الجمعة-0040",
+  "status": "Open",
+  "user": null,
+  "workflow_state": "New"
  }
 ]

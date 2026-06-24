@@ -18773,7 +18773,7 @@
  },
  {
   "charts": [],
-  "content": "[{\"id\":\"1-yKJCCL22\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>إدارة الشؤون الثقافيــــــة والدعويـــــــة</b></span>\",\"col\":12}},{\"id\":\"D8W6ekGDPO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"dYqssULL0X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\">قسم الوعاظ</span>\",\"col\":12}},{\"id\":\"MLfosQlqti\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"الوعاظ  المتقدمين الجدد\",\"col\":5}},{\"id\":\"NYmTiQZkv2\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"الوعاظ المحالين لتحديد موعد\",\"col\":7}},{\"id\":\"KQkekGzQgY\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SYCiqooC16\",\"type\":\"card\",\"data\":{\"card_name\":\"قسم الفاعليات والانشطة\",\"col\":5}},{\"id\":\"tW12so8bc1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"TVnGCz3dkm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"الانشطة للوعـــــــاظ\",\"col\":5}},{\"id\":\"tDmlClnNKV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"المحال الى لجنة قبول الوعاظ\",\"col\":5}},{\"id\":\"Q2IMMoNuU7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"الانشطة للمكـــــاتب\",\"col\":5}},{\"id\":\"aVPWKOjZm5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7bXZC08AKn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LptPj4mOuK\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
+  "content": "[{\"id\":\"1-yKJCCL22\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>                                       إدارة الشؤون الثقافيــــــة والدعويـــــــة</b></span>\",\"col\":12}},{\"id\":\"D8W6ekGDPO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"dYqssULL0X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h2\\\">                                قسم الوعاظ</span>\",\"col\":12}},{\"id\":\"MLfosQlqti\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"الوعاظ  المتقدمين الجدد\",\"col\":5}},{\"id\":\"NYmTiQZkv2\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"الوعاظ المحالين لتحديد موعد\",\"col\":7}},{\"id\":\"KQkekGzQgY\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"SYCiqooC16\",\"type\":\"card\",\"data\":{\"card_name\":\"قسم الفاعليات والانشطة\",\"col\":5}},{\"id\":\"tW12so8bc1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"TVnGCz3dkm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"الانشطة للوعـــــــاظ\",\"col\":5}},{\"id\":\"tDmlClnNKV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"المحال الى لجنة قبول الوعاظ\",\"col\":5}},{\"id\":\"Q2IMMoNuU7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"الانشطة للمكـــــاتب\",\"col\":5}},{\"id\":\"aVPWKOjZm5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"7bXZC08AKn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"LptPj4mOuK\",\"type\":\"spacer\",\"data\":{\"col\":12}}]",
   "custom_blocks": [],
   "docstatus": 0,
   "doctype": "Workspace",
@@ -18875,7 +18875,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2026-06-23 18:36:17.061734",
+  "modified": "2026-06-24 14:04:50.881627",
   "module": "taqafia",
   "name": "إدارة الشؤون الثقافية والدعوية",
   "number_cards": [],

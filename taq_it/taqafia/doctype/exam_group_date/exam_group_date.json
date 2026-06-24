@@ -37,7 +37,8 @@
   },
   {
    "fieldname": "section_break_swuv",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "the preachers to be tested"
   },
   {
    "fieldname": "waed_info_to_exam",
@@ -60,7 +61,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-23 16:53:18.953868",
+ "modified": "2026-06-24 15:49:41.411336",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "exam_group_date",

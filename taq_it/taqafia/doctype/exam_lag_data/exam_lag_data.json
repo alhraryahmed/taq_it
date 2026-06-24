@@ -1,77 +1,33 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{chairman_of_the_committee}-{MM}-{YY}",
  "creation": "2025-09-24 16:14:42.019742",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "entering_committee_data_section",
-  "chairman_of_the_committee",
-  "decided",
-  "column_break_pfws",
-  "first_examiner",
-  "second_examiner",
-  "third_examiner",
-  "fourth_examiner"
+  "section_break_avci",
+  "committee_members"
  ],
  "fields": [
   {
-   "fieldname": "entering_committee_data_section",
+   "fieldname": "section_break_avci",
    "fieldtype": "Section Break",
    "label": "Entering committee data"
   },
   {
-   "fieldname": "chairman_of_the_committee",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Chairman of the committee",
-   "reqd": 1
-  },
-  {
-   "fieldname": "first_examiner",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "First examiner",
-   "reqd": 1
-  },
-  {
-   "fieldname": "second_examiner",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Second examiner",
-   "reqd": 1
-  },
-  {
-   "fieldname": "third_examiner",
-   "fieldtype": "Data",
-   "label": "Third examiner"
-  },
-  {
-   "fieldname": "fourth_examiner",
-   "fieldtype": "Data",
-   "label": "Fourth examiner"
-  },
-  {
-   "fieldname": "decided",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Decided",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_pfws",
-   "fieldtype": "Column Break"
+   "fieldname": "committee_members",
+   "fieldtype": "Table",
+   "label": "Committee members",
+   "options": "lag_user_name_child"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-06-22 14:29:06.513718",
+ "modified": "2026-06-24 15:15:38.376811",
  "modified_by": "Administrator",
  "module": "taqafia",
  "name": "exam_lag_data",
- "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
